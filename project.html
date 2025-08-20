@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title> Project</title>
+    </head>
+    <body>
+        <h2> Handling Errors </h2>
+        <p id="error"></p>
+        <script>
+            try {
+                addalert("This is an error message");
+            }
+            catch(err) {
+                document.getElementById("error").innerHTML = err.message
+            }
+        </script>
+    </body>
+</html>
